@@ -2,6 +2,7 @@
 <html lang="en-US">
     <head>
         <title>Learn_Code</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
         <!--
         <style>
         h1 {
@@ -41,7 +42,7 @@
         <p style="color: red;">This is a red paragraph</p>
         <p title="I'm a tooltip">This is a paragraph with a title</p>
         <h1 style="font-size: 60px">Heading 1</h1>
-        <h1>This is heading 1</h1>
+        <h1 id="H1">This is heading 1</h1>
         <p>This is some text.</p>
         <hr>
         <h2>This is heading 2</h2>
@@ -122,5 +123,287 @@
         <h1 style="background-color: hsla(9, 100%, 64%, 0.5);">...</h1>
         <h1 style="color:blue;">A Blue Heading</h1>
         <p style="color:red;">A red paragraph.</p>
+        <a href="url">Link text</a>
+        <br>
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+        <br>
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!</a>
+        <br>
+        <a href="https://www.w3schools.com/" target="_self">Visit W3Schools.com!</a>
+        <br>
+        <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools.com!</a>
+        <br>
+        <a href="https://www.w3schools.com/" target="_top">Visit W3Schools.com!</a>
+        <h2>Absolute URLs</h2>
+        <p><a href="https://www.w3.org/">W3C</a></p>
+        <p><a href="https://www.google.com/">Google</a></p>
+        <h2>Relative URLs</h2>
+        <p><a href="html_images.asp">HTML Images</a></p>
+        <p><a href="/css/default.asp">CSS Tutorial</a></p>
+        <a href="https://www.codecademy.com/" target="_blank"><img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A tiger" width="640" height="425"></a>
+        <br>
+        <a href="mailto:marior00876@gmail.com">Send email</a>
+        <br>
+        <button onclick="document.location='https://www.w3schools.com/'">HTML Tutorial</button>
+        <br>
+        <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+        <br>
+        <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section" style="text-decoration: none;">Visit our HTML Tutorial</a>
+        <br>
+        <h2 id="C4">Chapter 4</h2>
+        <a href="#C4">Jump to Chapter 4</a>
+        <br>
+        <a href="#H1">Jump to a heading 1</a>
+        <br>
+        <a href="/folder/bookmark.html#C3">Jump to Demo Chapter 1</a>
+        <br>
+        <img src="https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Forest with water" title="Forest and river" style="width: 640px;height: 425px;">
+        <br>
+        <img src="https://i.giphy.com/RoFXqXWN639Qs.webp" alt="River flowing" style="width: 480px; height: 317;">
+        <br>
+        <h2>Floating Images</h2>
+        <p><strong>Float the image to the right:</strong></p>
+        <p>
+        <img src="https://img.freepik.com/premium-photo/happy-face-emoji_943471-634.jpg" alt="Smiley face" style="float:right;width:42px;height:42px;">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+        </p>
+        <p><strong>Float the image to the left:</strong></p>
+        <p>
+        <img src="https://img.freepik.com/premium-photo/happy-face-emoji_943471-634.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+        </p>
+        <br>
+        <!--Get the coordinates: https://www.image-map.net/-->
+        <h1>Work Place</h1>
+        <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+            <area target="_blank" alt="Computer" title="Computer" href="https://www.w3schools.com/html/computer.htm" coords="46,189,35,47,272,46,265,191,273,348,33,345" shape="poly">
+            <area target="_blank" alt="Cup of coffe" title="Cup of coffe" href="https://www.w3schools.com/html/coffee.htm" coords="337,299,45" shape="circle">
+            <area target="_blank" alt="Phone" title="Phone" href="https://www.w3schools.com/html/phone.htm" coords="292,171,332,247" shape="rect">
+        </map>
+        <hr>
+        <h1>Phone Work Place</h1>
+        <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#coffee" width="400" height="379">
+        <map name="coffee">
+            <area shape="circle" coords="337,300,44" href="https://www.w3schools.com/html/coffee.htm" onclick="myFunction()" target="_blank">
+        </map>
+        <hr>
+        <h1>Croissant and Meatballs</h1>
+        <img src="https://www.w3schools.com/html/frenchfood4.jpg" alt="Croissant" usemap="#croissant">
+        <map name="croissant">
+            <area shape="poly" coords="204,159,103,159,41,258,36,321,58,354,86,354,142,329,193,267,206,225,128,147,139,121,181,118,205,155,205,224,141,160,120,151,107,158" href="https://en.wikipedia.org/wiki/Croissant" alt="croissant" target="_blank">
+            <area shape="poly" coords="232,391,246,313,270,290,292,271,321,255,338,254,356,253,363,258,383,273,391,277,400,286,412,298,425,307,438,319,443,333,444,397,446,359,444,382,435,407,421,425,406,444,389,461,371,473,349,483,321,480,298,468,275,450,256,429,239,414,236,335,227,364" href="https://en.wikipedia.org/wiki/Meatball" target="_blank">
+        </map>
+        <br>
+        <p style="background-image: url('https://plus.unsplash.com/premium_photo-1692641346419-1e8c011fbe77?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWRpdGluZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D'); color: greenyellow">Lorem ipsum odor amet, consectetuer adipiscing elit. Fames iaculis proin vehicula purus phasellus aliquam lorem. Nec parturient dictum eu at sapien vestibulum placerat aptent. Mattis litora gravida sollicitudin, bibendum nisl duis. Efficitur dictum purus; feugiat conubia id aptent. Montes eleifend fames nec fames nisl egestas commodo. Nascetur dapibus suspendisse congue conubia sollicitudin varius sit adipiscing. Velit tellus posuere vivamus nostra malesuada nulla aptent dignissim. Consectetur varius potenti ullamcorper, vivamus vitae nec sed. Diam non penatibus volutpat sed nostra magnis phasellus fusce. Tempor nullam enim dignissim porttitor magna tristique consectetur molestie. Fringilla aptent commodo enim vel nisl dis amet fermentum. Faucibus fringilla magnis, massa sit enim libero placerat habitasse per. Dapibus sapien pellentesque rutrum leo eget feugiat. Nostra diam lacus elementum iaculis, hendrerit pellentesque lobortis. Maximus mus faucibus eget accumsan imperdiet ut euismod. Tincidunt laoreet ut fringilla tortor aptent, cras metus sed curae. Integer pellentesque et quis orci in. Adipiscing nascetur rutrum eros nam suspendisse mollis tristique. Donec torquent vulputate neque magnis primis elementum nullam vulputate ridiculus. Varius vehicula eleifend accumsan parturient ad cursus class. Est tincidunt natoque cursus dignissim, vel eros cursus taciti. Ridiculus aenean porta mattis curae eros aliquet interdum pulvinar. Non quisque quisque turpis turpis commodo elementum. Viverra et morbi accumsan venenatis adipiscing sed. Justo tempus luctus urna convallis cras nullam. Netus a mollis pretium dapibus diam leo sociosqu penatibus. Habitant scelerisque congue finibus mus mauris dui sagittis viverra. Sapien amet arcu ridiculus diam congue. Per congue mattis libero elementum porttitor leo. Montes himenaeos consectetur aliquam primis; magna mollis fames curae volutpat. Congue senectus penatibus phasellus ac pulvinar. Ridiculus morbi varius ipsum; ornare ultrices vulputate vehicula dolor. Phasellus ipsum facilisis pulvinar hendrerit placerat aenean nisi. Condimentum tempus vestibulum aliquam donec blandit suscipit eu. Elit vivamus praesent rhoncus suscipit morbi. Nisl gravida curabitur egestas eros ridiculus. Felis cubilia torquent taciti dis leo mus imperdiet luctus suscipit. Nulla sit fringilla augue finibus rhoncus inceptos vel. Urna egestas iaculis tempus sollicitudin erat etiam eleifend sem.</p>
+        <picture>
+            <source media="(min-width: 650px)" srcset="https://www.w3schools.com/html/img_food.jpg">
+            <source media="(min-width: 465px)" srcset="https://www.w3schools.com/html/img_car.jpg">
+            <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl with hat" style="width: auto;">
+        </picture>
+        <h1>Basic Data Table</h1>
+        <table>
+            <tr>
+                <th>Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Tobias</td>
+                <td>Linus</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>14</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <h1>Tables With Borders</h1>
+        <table style="border: 1px solid black;">
+            <tr>
+                <th style="border: 1px solid black;">Person 1</th>
+                <th style="border: 1px solid black;">Person 2</th>
+                <th style="border: 1px solid black;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Email</td>
+                <td style="border: 1px solid black;">Tobias</td>
+                <td style="border: 1px solid black;">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">16</td>
+                <td style="border: 1px solid black;">14</td>
+                <td style="border: 1px solid black;">10</td>
+            </tr>
+        </table>
+        <h1>Table data 3</h1>
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <th style="border: 1px solid black; border-collapse: collapse;">Person 1</th>
+                <th style="border: 1px solid black; border-collapse: collapse;">Person 2</th>
+                <th style="border: 1px solid black; border-collapse: collapse;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-collapse: collapse;">Email</td>
+                <td style="border: 1px solid black; border-collapse: collapse;">Tobias</td>
+                <td style="border: 1px solid black; border-collapse: collapse;">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-collapse: collapse;">16</td>
+                <td style="border: 1px solid black; border-collapse: collapse;">14</td>
+                <td style="border: 1px solid black; border-collapse: collapse;">10</td>
+            </tr>
+        </table>
+        <h1>Data table 4</h1>
+        <table style="border: 1px solid powderblue; border-collapse: collapse;">
+            <tr>
+                <th style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">Person 1</th>
+                <th style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">Person 2</th>
+                <th style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato">Email</td>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">Tobias</td>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">16</td>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">14</td>
+                <td style="border: 1px solid powderblue; border-collapse: collapse; background-color: tomato;">10</td>
+            </tr>
+        </table>
+        <h1>Round Table Borders</h1>
+        <table style="border: 1px solid black; border-radius: 10px;">
+            <tr>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 1</th>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 2</th>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-radius: 10px;">Email</td>
+                <td style="border: 1px solid black; border-radius: 10px;">Tobias</td>
+                <td style="border: 1px solid black; border-radius: 10px">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-radius: 10px;">16</td>
+                <td style="border: 1px solid black; border-radius: 10px;">14</td>
+                <td style="border: 1px solid black; border-radius: 10px;">10</td>
+            </tr>
+        </table>
+        <h1>Round Table Borders Without Table</h1>
+        <table>
+            <tr>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 1</th>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 2</th>
+                <th style="border: 1px solid black; border-radius: 10px;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-radius: 10px;">Email</td>
+                <td style="border: 1px solid black; border-radius: 10px;">Tobias</td>
+                <td style="border: 1px solid black; border-radius: 10px">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-radius: 10px;">16</td>
+                <td style="border: 1px solid black; border-radius: 10px;">14</td>
+                <td style="border: 1px solid black; border-radius: 10px;">10</td>
+            </tr>
+        </table>
+        <h1>Dotted Table Borders (Style Change)</h1>
+        <table>
+            <tr>
+                <th style="border: 1px solid black; border-style: dotted;">Person 1</th>
+                <th style="border: 1px solid black; border-style: dotted;">Person 2</th>
+                <th style="border: 1px solid black; border-style: dotted;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-style: dotted;">Email</td>
+                <td style="border: 1px solid black; border-style: dotted;">Tobias</td>
+                <td style="border: 1px solid black; border-style: dotted;">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-style: dotted;">16</td>
+                <td style="border: 1px solid black; border-style: dotted;">14</td>
+                <td style="border: 1px solid black; border-style: dotted;">10</td>
+            </tr>
+        </table>
+        <h1>Border Color</h1>
+        <table style="border-collapse: collapse;">
+            <tr>
+                <th style="border: 1px solid black; border-color: coral;">Person 1</th>
+                <th style="border: 1px solid black; border-color: coral;">Person 2</th>
+                <th style="border: 1px solid black; border-color: coral;">Person 3</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-color: coral;">Email</td>
+                <td style="border: 1px solid black; border-color: coral;">Tobias</td>
+                <td style="border: 1px solid black; border-color: coral;">Linus</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; border-color: coral;">16</td>
+                <td style="border: 1px solid black; border-color: coral;">14</td>
+                <td style="border: 1px solid black; border-color: coral;">10</td>
+            </tr>
+        </table>
+        <h1>HTML Width</h1>
+        <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+            <tr>
+                <th style="border: 1px solid black;">Firstname</th>
+                <th style="border: 1px solid black;">Lastname</th>
+                <th style="border: 1px solid black;">Age</th>
+              </tr>
+              <tr>
+                <td style="border: 1px solid black;">Jill</td>
+                <td style="border: 1px solid black;">Smith</td>
+                <td style="border: 1px solid black;">50</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid black;">Eve</td>
+                <td style="border: 1px solid black;">Jackson</td>
+                <td style="border: 1px solid black;">94</td>
+              </tr>
+        </table>
+        <h1>HTML Table Column Width</h1>
+        <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+            <tr>
+                <th style="border: 1px solid black; width: 70%;">Firstname</th>
+                <th style="border: 1px solid black;">Lastname</th>
+                <th style="border: 1px solid black;">Age</th>
+              </tr>
+              <tr>
+                <td style="border: 1px solid black;">Jill</td>
+                <td style="border: 1px solid black;">Smith</td>
+                <td style="border: 1px solid black;">50</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid black;">Eve</td>
+                <td style="border: 1px solid black;">Jackson</td>
+                <td style="border: 1px solid black;">94</td>
+              </tr>
+        </table>
+        <h1>HTML Table Row Height</h1>
+        <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+            <tr>
+                <th style="border: 1px solid black;">Firstname</th>
+                <th style="border: 1px solid black;">Lastname</th>
+                <th style="border: 1px solid black;">Age</th>
+              </tr>
+              <tr style="height: 200px">
+                <td style="border: 1px solid black;">Jill</td>
+                <td style="border: 1px solid black;">Smith</td>
+                <td style="border: 1px solid black;">50</td>
+              </tr>
+              <tr>
+                <td style="border: 1px solid black;">Eve</td>
+                <td style="border: 1px solid black;">Jackson</td>
+                <td style="border: 1px solid black;">94</td>
+              </tr>
+        </table>
+
+        <script>
+        function myFunction() {
+            alert("You clicked the coffe cup!");
+        }
+        </script>
     </body>
 </html>
